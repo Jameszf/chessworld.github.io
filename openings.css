@@ -1,0 +1,122 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+#titleContainer {
+    background: linear-gradient( rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7) ), url('http://cdn.pcwallart.com/images/chess-wallpaper-black-and-white-wallpaper-2.jpg');
+    background-size: cover;
+    height: 800px;
+    border-bottom: solid #1a1a1a 1px;
+}
+#titleContainer h1 {
+	font-size: 3em;
+	font-family: sans-serif;
+	text-align: center;
+	color: #f2f2f2;
+	padding: 30px 0;
+	width: 60%;
+	border-top: solid #f2f2f2 1px;
+	border-bottom: solid #f2f2f2 1px;
+	position: absolute;
+	top: 30%;
+	left: 20%;
+}
+#pageDesc {
+    padding: 40px;
+    font-size: 1.2em;
+    font-family: sans-serif;
+    text-indent: 30px;
+    background: linear-gradient(#1a1a1a, #262626);
+    color: #f2f2f2
+}
+#openingsList {
+    background: linear-gradient(#262626, #333333);
+    padding: 10px 5px;
+    float: left;
+    width: 33%;
+    border-top: solid white 1px;
+}
+#openingsList li {
+    padding: 10px 0;
+    text-indent: 100px;
+    font-size: 1.2em;
+    font-family: sans-serif;
+    color: #f2f2f2;
+}
+#openingsList li:hover {
+	border-left: solid #f2f2f2 1px;
+	background-color: #1a1a1a;
+	color: #f2f2f2;
+	padding: 15px 20px;
+	transition: 1s;
+}
+.openingSlide {
+	
+}
+.hidden {
+    display: none;
+}
+.openingContainer {
+    position: absolute;
+    left: 35%;
+    border: solid #f2f2f2 1px;
+    border-radius: 10px;
+    max-width: 68%;
+    background: linear-gradient(#1a1a1a, #262626);
+}
+.openingContainer h3 {
+    color: #f2f2f2;
+    font-family: sans-serif;
+    font-size: 2em;
+    margin: 10px 5px 0px 10px;
+}
+.openingContainer p {
+    color: #f2f2f2;
+    font-family: sans-serif;
+    font-size: 0.9em;
+    padding: 5px;
+    border: solid #f2f2f2 1px;
+    margin: 20px;
+    float: right;
+    max-width: 62%;
+}
+.openingContainer img {
+    margin: 10px 5px 5px 10px;
+    float: left;
+}
+.openingContainer .leftColumnContainer {
+	float: left;
+}
+/* Navigation Bar */
+header nav {
+	position: absolute;
+	left: 39%;
+	top: 20%;
+}
+header nav ul {
+	list-style-type: none;
+}
+header nav ul li {
+	float: left;
+	margin-right: 10px;
+}
+header nav ul li a:hover {
+	border-radius: 5px;
+	border: solid #f2f2f2 1px;
+	background-color: #f2f2f2;
+	color: #1a1a1a;
+	padding: 8px 13px;
+	font-size: 0.9em;
+    transition: 1s; 
+    transition-delay: 0.1s;
+}
+header nav ul li a {
+    text-decoration: none;
+    color: #f2f2f2;
+	font-family: sans-serif;
+	font-size: 0.8em;
+	padding: 5px 10px;
+	border-bottom: solid #f2f2f2 1px;
+}
+/* Navigation Bar */
