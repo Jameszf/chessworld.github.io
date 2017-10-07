@@ -1,0 +1,233 @@
+/* 
+White Text Color: #f2f2f2 
+White color: #e6e6e6
+*/
+* {
+    margin: 0;
+    padding: 0;
+}
+body {
+    background-color: black;
+}
+/* Home */
+#titleContainer {
+    background: 
+    linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.7)),
+    url(https://ak5.picdn.net/shutterstock/videos/16682215/thumb/1.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 50em;
+    border-bottom: solid #f2f2f2 5px;
+}
+#pageOneTitle {
+    position: relative;
+    color: #f2f2f2;
+    text-align: center;
+    top: 20%;
+    font-size: 8em;
+    font-family: Brush Script MT;
+}
+#quoteText {
+    font-size: 2.5em;
+    top: 25%;
+}
+#quoteSubTitle {
+    font-size: 1.1em;
+    top: 30%;
+}
+.quote {
+    color: #f2f2f2;
+    position: relative;
+    text-align: center;
+    font-family: sans-serif;
+}
+#cbButton {
+    position: absolute;
+    top: 80%;
+    left: 45%;
+    background-color: transparent;
+    color: #f2f2f2;
+    border: solid #f2f2f2 1px;
+    border-radius: 20px;
+    padding: 10px 20px;
+    font-family: sans-serif;
+    font-size: 1.2em;
+    text-decoration: none;
+}
+.infoContainer {
+    height: 1000px;
+    position: relative;
+    border-bottom: solid #f2f2f2 5px;
+    z-index: -1;
+}
+.infoContainer p {
+    position: relative;
+    top: 70%;
+    font-size: 30px;
+    font-family: sans-serif;
+    position: absolute;
+    margin-right: 60%;
+    color: #f2f2f2;
+    background-color: transparent;
+    border: solid #f2f2f2 1px;
+    border-radius: 5px;
+    padding: 15px;
+    outline: solid #e6e6e6 1px;
+    outline-offset: 3px;
+}
+#sectionOne {
+    background: 
+    linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.7)),
+    url(https://i.pinimg.com/736x/b0/60/36/b060369f28de821d0232cec803a89cae--chess-boards-rak.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+/* Basics of Chess */
+#basicsOfChess {
+    background: url(https://kaggle2.blob.core.windows.net/datasets-images/493/996/47b046a358ea82ab3067ba13d196bb76/dataset-original.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-bottom: solid #f2f2f2 5px;
+}
+#basicsOfChess h3 {
+    font-size: 4em;
+    color: #f2f2f2;
+    text-shadow: black 1px 1px 1px;
+    text-align: center;
+    margin-bottom: 30px;
+}
+#basicsOfChess h4 {
+    color: #f2f2f2;
+    text-align: center;
+    font-size: 2em;
+    font-family: sans-serif;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+#basicsOfChess p {
+    color: #f2f2f2;
+    text-align: left;
+    font-family: sans-serif;
+    font-size: 1.1em;
+    padding: 20px;
+    text-indent: 20px;
+    margin: 0 12%;
+}
+#basicsOfChess p a {
+    text-decoration: none;
+    color: #f2f2f2;
+}
+#basicsOfChess p a span{
+    text-decoration: underline;
+}
+/* Basics of Chess */
+/* Image Gallery CSS */
+#magnusCarlsen {
+    background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)),
+    url('https://images.duckduckgo.com/iu/?u=http%3A%2F%2Fschoolofthinking.org%2Fwp-content%2Fuploads%2F2013%2F12%2Fmagnus%2Bcarlsen.jpg&f=1');
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+#yifanHou {
+    background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)),
+    url('https://images.duckduckgo.com/iu/?u=https%3A%2F%2Fchessdailynews.com%2Fwp-content%2Fuploads%2F2013%2F09%2FHou-Yifan-2013-460x460.jpg&f=1');
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+#juditPolgar {
+    background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)),
+    url('https://images.duckduckgo.com/iu/?u=https%3A%2F%2Fpbs.twimg.com%2Fprofile_images%2F811527768097878016%2FFv85tgbn_400x400.jpg&f=1');
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+#mikhailTal {
+    background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)),
+    url('https://images.duckduckgo.com/iu/?u=http%3A%2F%2Fupload.wikimedia.org%2Fwikipedia%2Fcommons%2F4%2F4e%2FMikhail_Tal_1962.jpg&f=1');
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+#bobbyFischer {
+    background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)),
+    url('https://images.duckduckgo.com/iu/?u=http%3A%2F%2Fwww.quantumgambitz.com%2Fblog%2Fwp-content%2Fuploads%2F2015%2F05%2FFischer.jpg&f=1');
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+#garryKasparov {
+    background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)),
+    url('https://images.duckduckgo.com/iu/?u=http%3A%2F%2Fcdn1.listovative.com%2Fwp-content%2Fuploads%2F2014%2F06%2FKASPAROV.jpg&f=1');
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+#notablePeople {
+    position: absolute;
+    left: 11%;
+    margin: 0;
+}
+#notablePeopleTitle {
+    text-align: center;
+    padding: 20px 0;
+    margin: 40px 0;
+    font-size: 3em;
+    font-family: sans-serif;
+    text-shadow: 1px 1px gray;
+    color: #f2f2f2;
+    width: 100%;
+    background-color: transparent;
+}
+.notePerson {
+    width: 300px;
+    height: 300px;  
+    position: relative;
+    margin: 20px;
+    float: left;
+    outline: solid #f2f2f2 1px;
+    outline-offset: 5px;
+    border: solid #f2f2f2 1px;
+    border-radius: 5px;
+}
+.notePerson h2 {
+    position: absolute;
+    top: 10%;
+    left: 3%;
+    color: #f2f2f2;
+}
+.notePerson p {
+    position: absolute;
+    top: 25%;
+    left: 3%;
+    color: #f2f2f2;
+}
+/* Image Gallery CSS */ 
+/* Home */
+/* Navigation Bar */
+header nav {
+	position: absolute;
+	left: 39%;
+	top: 17%;
+}
+header nav ul {
+	list-style-type: none;
+}
+header nav ul li {
+	float: left;
+	margin-right: 10px;
+}
+header nav ul li a:hover {
+	border-radius: 5px;
+	border: solid #f2f2f2 1px;
+	background-color: #f2f2f2;
+	color: #1a1a1a;
+	padding: 8px 13px;
+	font-size: 0.9em;
+    transition: 1s; 
+    transition-delay: 0.1s;
+}
+header nav ul li a {
+    text-decoration: none;
+    color: #f2f2f2;
+	font-family: sans-serif;
+	font-size: 0.8em;
+	padding: 5px 10px;
+	border-bottom: solid #f2f2f2 1px;
+}
+/* Navigation Bar */
