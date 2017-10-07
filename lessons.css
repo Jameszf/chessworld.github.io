@@ -1,0 +1,167 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+body {
+    background: linear-gradient(#0d0d0d, #1a1a1a)
+}
+/* Lessons */
+/* Title */
+#titleContainer {
+    background: 
+    linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.7)),
+    url(http://cdn.pcwallart.com/images/chess-black-and-white-wallpaper-1.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 50em;
+    border-bottom: solid #f2f2f2 1px;
+}
+#titleContainer h1 {
+    color: #f2f2f2;
+    font-size: 5em;
+    font-family: sans-serif;
+    text-align: center;
+    border-bottom: solid #f2f2f2 2px;
+    border-top: solid #f2f2f2 2px;
+    width: 50%;
+    position: relative; 
+    top: 20%;
+    left: 25%;
+}
+#titleContainer h3 {
+    color: #f2f2f2;
+    text-align: center;
+    width: 50%;
+    font-size: 1.5em;
+    font-family: sans-serif;
+    position: relative;
+    top: 30%;
+    left: 25%;
+}
+#allLessonsContainer {
+    margin: 30px;
+}
+/* Other Lessons */
+#otherLessonsTitle {
+	text-align: center;
+	font-size: 3em;
+	font-family: sans-serif;
+	text-shadow: 1px 1px black;
+	color: #f2f2f2;
+    clear: both;
+}
+.otherLessons {
+	width: 100%;
+	font-family: sans-serif;
+	font-size: 1.3em;
+	padding: 10px;
+    clear: both;
+    color: #f2f2f2;
+}
+.lessonsRow {
+	margin: 0;
+}
+.lessonContainer {
+	background-color: #262626;
+	float: left;
+	border: solid black 1px;
+	border-radius: 10px;
+	width: 29%;
+	margin: 20px;
+	position: relative;	
+}
+.lessonContainer img {
+	max-width: 90%;
+	border: solid white 1px;
+}
+.lessonContainer h2 {
+	color: white;
+	position: absolute;
+	top: 0%;
+	font-family: sans-serif;
+	font-size: 2em;	
+	background-color: #262626;	
+	padding: 10px;
+	border-radius: 10px 0 10px 0;
+	text-shadow: 1px 1px black; 
+    width: 93%;
+    text-align: center;
+}
+.lessonContainer p {
+	color: #f2f2f2;
+	background-color: transparent;
+	font-size: 15px;
+	padding: 4px;
+	margin: 10px;
+	border: solid white 1px;
+    text-decoration: none;
+}
+.otherChessWeb {
+    position: relative;
+    margin: 50px;
+    font-size: 1.5em;
+    font-family: sans-serif;
+    width: 300px;
+    height: 300px;
+    float: left;
+    border: solid #f2f2f2 1px;
+}
+.otherChessWeb h2 {
+    color: white;
+    text-align: center;
+    position: relative;
+    top: 40%;
+    text-decoration: none;
+}
+#chesscomWeb {
+    background: linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.7)),
+    url('https://images.duckduckgo.com/iu/?u=https%3A%2F%2Fbetacssjs.chesscomfiles.com%2Fbundles%2Fweb%2Fimages%2Fsocial%2Fshare-logo.c97604b3.png&f=1');
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+#lichessWeb {
+    background: linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.7)),
+    url('https://upload.wikimedia.org/wikipedia/commons/thumb/7/70/Chess_nlt45.svg/2000px-Chess_nlt45.svg.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+#chesscubeWeb {
+    background: linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.7)),
+    url('https://images.duckduckgo.com/iu/?u=http%3A%2F%2Ffiles.chesscube.com.s3.amazonaws.com%2Fimages%2Fmerchimages%2F2Aug2011%2FCCSquareLogo.jpg&f=1');
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+/* Other Lessons */
+/* Navigation Bar */
+header nav {
+	position: absolute;
+	left: 39%;
+	top: 17%;
+}
+header nav ul {
+	list-style-type: none;
+}
+header nav ul li {
+	float: left;
+	margin-right: 10px;
+}
+header nav ul li a:hover {
+	border-radius: 5px;
+	border: solid #f2f2f2 1px;
+	background-color: #f2f2f2;
+	color: #1a1a1a;
+	padding: 8px 13px;
+	font-size: 0.9em;
+    transition: 1s; 
+    transition-delay: 0.1s;
+}
+header nav ul li a {
+    text-decoration: none;
+    color: #f2f2f2;
+	font-family: sans-serif;
+	font-size: 0.8em;
+	padding: 5px 10px;
+	border-bottom: solid #f2f2f2 1px;
+}
+/* Navigation Bar */
